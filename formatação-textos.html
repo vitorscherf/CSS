@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de textos</title>
+
+<style type="text/css">
+
+    p{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .texto{
+        font-size: 20px; /*px, %, em */ 
+    }
+
+    .negrito{
+
+        font-weight: bold; /*negrito*/ 
+    }
+
+    .estilo{
+        font-style: italic;
+        /*font-style: oblique;*/
+    }
+
+    .texto-padrao{
+
+        font: bold 40px "palatino linotype";
+
+    }
+
+    .formatacao{
+
+        /*text-decoration: underline;*/
+        /*text-decoration: overline;*/
+        text-decoration: line-through;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+
+    <p class="texto">Lorem ipsum <span class="formatacao">dolor</span> sit anset, 
+        consectetur adipiscing elit</p>
+        <p class="negrito">Conteúdo 1</p>
+        <p>Conteúdo 2</p>
+        <p class="estilo">Conteúdo 3</p>
+        <p class="texto-padrao">Conteúdo 4</p>
+
+
+    
+</body>
+</html>
